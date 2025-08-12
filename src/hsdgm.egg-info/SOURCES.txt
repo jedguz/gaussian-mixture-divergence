@@ -9,3 +9,7 @@ src/hsdgm.egg-info/PKG-INFO
 src/hsdgm.egg-info/SOURCES.txt
 src/hsdgm.egg-info/dependency_links.txt
 src/hsdgm.egg-info/top_level.txt
+src/hsdgm/pgd/pairwise.py
+src/hsdgm/pgd/sanity_check.py
+src/hsdgm/pgd/true.py
+src/hsdgm/pgd/true2.py
