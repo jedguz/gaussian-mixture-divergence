@@ -2,10 +2,10 @@ import math
 import numpy as np
 import torch
 
-from hsdgm.instances import default_instance
-from hsdgm.constraints import check_constraints, project
-from hsdgm.pgd.pairwise import pgd_pairwise, U_pairwise
-from hsdgm.pgd.true import pgd_H_full_true, sample_H_mixture_true
+from instances import default_instance
+from constraints import check_constraints, project
+from pgd.pairwise import pgd_pairwise, U_pairwise
+from pgd.true import pgd_H_full_true, sample_H_mixture_true
 
 torch.set_default_dtype(torch.double)
 

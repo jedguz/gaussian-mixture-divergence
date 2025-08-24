@@ -8,8 +8,8 @@ import numpy as np
 import torch
 from numpy.polynomial.hermite import hermgauss
 
-from hsdgm.estimators import estimate_halpha_mc
-from hsdgm.math_utils import g_eps_np  # exact Hα for two Gaussians via d=||μ-ν||
+from estimators import estimate_halpha_mc
+from math_utils import g_eps_np  # exact Hα for two Gaussians via d=||μ-ν||
 
 torch.set_default_dtype(torch.double)
 

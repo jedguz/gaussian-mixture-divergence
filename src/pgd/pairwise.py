@@ -5,8 +5,8 @@ from typing import Optional, Tuple, Literal, Callable
 
 import torch
 
-from hsdgm.math_utils import g_eps_torch
-from hsdgm.constraints import project
+from math_utils import g_eps_torch
+from constraints import project
 
 __all__ = ["U_pairwise", "pgd_pairwise"]
 

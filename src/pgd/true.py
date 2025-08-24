@@ -6,7 +6,7 @@ from typing import Tuple, Optional
 import torch
 import torch.nn.functional as F
 
-from hsdgm.constraints import project
+from constraints import project
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Notebook-faithful Monte Carlo estimator: x ~ P, Hα = E_P[ max(1 - α q/p, 0) ]
